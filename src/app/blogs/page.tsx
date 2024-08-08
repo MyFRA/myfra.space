@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+import BaseParagraphComponent from '@/components/BaseParagraphComponent'
+import BaseTitleComponent from '@/components/BaseTitleComponent'
 import BlogContainerComponent from '@/components/BlogContainerComponent'
 import BlogListItemComponent from '@/components/BlogListItemComponent'
 import CardComponent from '@/components/CardComponent'
@@ -8,11 +11,20 @@ export default function BlogPage() {
         <AppLayout>
             <div className="app-container">
                 <CardComponent>
-                    <h1 className="text-lg lg:text-2xl font-semibold">Blog</h1>
+                    <BaseTitleComponent>Blogs</BaseTitleComponent>
+                    <BaseParagraphComponent>
+                        Even though I don't write often, I try to share my
+                        thoughts and experiences from time to time. Hope you
+                        find them useful!
+                    </BaseParagraphComponent>
 
-                    <BlogContainerComponent>
-                        <BlogListItemComponent />
-                    </BlogContainerComponent>
+                    <div className="mt-5">
+                        <BlogContainerComponent>
+                            <BlogListItemComponent />
+                            <BlogListItemComponent />
+                            <BlogListItemComponent />
+                        </BlogContainerComponent>
+                    </div>
                 </CardComponent>
             </div>
         </AppLayout>

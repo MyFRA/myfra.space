@@ -23,7 +23,7 @@ export default function NavbarComponent() {
                 <ul
                     className={`flex flex-col bg-white w-full left-0 duration-1000 ease-in-out ${
                         isNavbarMobileOpen ? 'top-[7vh]' : '-top-[100vh]'
-                    } lg:top-[unset] lg:flex-row gap-0 lg:gap-3 items-center mx-auto text-sm px-3 absolute lg:relative border-b lg:py-0`}
+                    } lg:top-[unset] lg:flex-row gap-0 lg:gap-3 items-center mx-auto text-sm px-3 absolute lg:relative border-b lg:border-b-0 lg:py-0`}
                 >
                     <NavLinkComponent
                         href="/"
@@ -82,32 +82,6 @@ export default function NavbarComponent() {
                             </svg>
                         }
                         isActive={pathname.includes('/projects')}
-                    />
-                    <NavLinkComponent
-                        href="/achievements"
-                        title="Achievements"
-                        icon={
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                className="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"
-                            >
-                                <path
-                                    stroke="none"
-                                    d="M0 0h24v24H0z"
-                                    fill="none"
-                                />
-                                <path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z" />
-                            </svg>
-                        }
-                        isActive={pathname.includes('/achievements')}
                     />
                     <NavLinkComponent
                         href="/blogs"

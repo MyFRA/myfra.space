@@ -1,13 +1,15 @@
 export default function BlogListItemComponent() {
     return (
-        <li>
-            <a href="/blogs/1" className="flex gap-6 justify-between items-start hover:underline">
-                <p className="text-sm lg:text-base w-5 lg:w-20">11/9</p>
-                <div className="w-full">
-                    <h3 className="text-sm lg:text-base font-semibold">Menjadi Tidak Tahu di Era Informasi</h3>
-                </div>
-                <p className="text-sm lg:text-base font-semibold">2023</p>
+        <li className="flex gap-6 justify-between items-center">
+            <a
+                href="/blogs/1"
+                className="flex-[3] font-medium hover:opacity-80"
+            >
+                Menjadi Tidak Tahu di Era Informasi
             </a>
+            <div className="flex-[1]">
+                <p className="text-right text-sm">4 March 2023</p>
+            </div>
         </li>
     )
 }
