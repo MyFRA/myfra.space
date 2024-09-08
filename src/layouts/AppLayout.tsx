@@ -8,7 +8,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             className="min-h-screen"
             style={{ backgroundImage: 'url(/static/batik.jpg)' }}
         >
-            <div className="min-h-screen py-[9vh] lg:py-16 bg-black bg-opacity-5">
+            <div className="min-h-screen py-[9vh] md:py-16 bg-black bg-opacity-5">
                 <NavbarComponent />
                 <div className="py-4">{children}</div>
             </div>

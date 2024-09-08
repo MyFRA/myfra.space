@@ -18,12 +18,12 @@ export default function NavbarComponent() {
     const [isNavbarMobileOpen, setIsNavbarMobileOpen] = useState(false)
 
     return (
-        <nav className="top-0 left-0 w-full py-3 bg-white fixed border-b-gray-100 border-b">
-            <div className="app-container flex justify-between items-center relative h-[6vh] lg:h-[unset]">
+        <nav className="top-0 left-0 w-full py-3 bg-white fixed border-b-gray-100 border-b z-50">
+            <div className="app-container flex justify-between items-center relative h-[6vh] md:h-[unset]">
                 <ul
-                    className={`flex flex-col bg-white w-full left-0 duration-1000 ease-in-out ${
+                    className={`flex flex-col bg-white w-full left-0 duration-500 ease-out ${
                         isNavbarMobileOpen ? 'top-[7vh]' : '-top-[100vh]'
-                    } lg:top-[unset] lg:flex-row gap-0 lg:gap-3 items-center mx-auto text-sm px-3 absolute lg:relative border-b lg:border-b-0 lg:py-0`}
+                    } md:top-[unset] md:flex-row gap-0 md:gap-3 items-center mx-auto text-sm px-3 absolute md:relative border-b md:border-b-0 md:py-0`}
                 >
                     <NavLinkComponent
                         href="/"
@@ -145,16 +145,19 @@ export default function NavbarComponent() {
                     />
                 </ul>
 
-                <h4 className="font-lora font-semibold text-xl lg:hidden">
+                <a
+                    href="/"
+                    className="font-lora font-semibold text-xl block md:hidden"
+                >
                     MyFRA
-                </h4>
+                </a>
 
                 <button
                     type="button"
                     onClick={() => {
                         setIsNavbarMobileOpen(!isNavbarMobileOpen)
                     }}
-                    className="text-sm border rounded font-medium border-gray-300 py-1 px-2 flex items-center gap-1.5 hover:bg-slate-50 outline-none lg:hidden"
+                    className="text-sm border rounded font-medium border-gray-300 py-1 px-2 flex items-center gap-1.5 hover:bg-slate-50 outline-none md:hidden"
                 >
                     {isNavbarMobileOpen ? (
                         <svg

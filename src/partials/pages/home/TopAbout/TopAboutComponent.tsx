@@ -3,23 +3,23 @@ import AccountButtonComponent from './partials/AccountButtonComponent'
 export default function TopAboutComponent() {
     return (
         <div>
-            <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8 items-center pt-3 lg:pt-0">
+            <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-8 items-center pt-3 md:pt-0">
                 <div>
                     <img
                         src="/static/sakura.png"
-                        className="w-[100px] lg:w-[135px]"
+                        className="w-[100px] md:w-[135px]"
                         alt="MyFRA"
                     />
                 </div>
                 <div className="flex-[1]">
-                    <h1 className="text-2xl lg:text-3xl font-semibold text-center font-lora lg:text-left">
+                    <h1 className="text-2xl md:text-3xl font-semibold text-center font-lora md:text-left">
                         MyFRA
                     </h1>
-                    <p className="mt-2 text-sm lg:text-[15px] text-center lg:text-left">
+                    <p className="mt-2 text-sm md:text-[15px] text-center md:text-left">
                         A software engineer focusing on delivering high-quality
                         software that helps people to solve their problems.
                     </p>
-                    <ul className="flex gap-2 lg:gap-3 mt-4">
+                    <ul className="flex gap-2 md:gap-3 mt-4">
                         <AccountButtonComponent
                             title="Linkedin"
                             href="https://www.linkedin.com/in/myfra/"

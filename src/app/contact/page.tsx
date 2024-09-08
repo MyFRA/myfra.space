@@ -15,7 +15,7 @@ export default function ContactPage() {
                         elit. Debitis nesciunt soluta beatae aperiam non dolore.
                         Alias, at. Debitis, veniam omnis!
                     </BaseParagraphComponent>
-                    <div className="flex mt-5 gap-6">
+                    <div className="flex flex-col-reverse lg:flex-row mt-5 gap-2.5 lg:gap-6">
                         <div className="flex-[4] flex gap-2.5 flex-col">
                             <div className="flex gap-4">
                                 <div className="flex-[1]">
@@ -109,7 +109,7 @@ export default function ContactPage() {
                         </div>
                         <div className="self-stretch w-[1px] bg-gray-300"></div>
                         <div className="flex-[1]">
-                            <ul className="flex flex-col gap-2 lg:gap-3 mt-4">
+                            <ul className="flex lg:flex-col gap-2 lg:gap-3 lg:mt-4">
                                 <AccountButtonComponent
                                     classname="lg:w-full lg:justify-start"
                                     title="Linkedin"

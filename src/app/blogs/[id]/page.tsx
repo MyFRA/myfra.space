@@ -1,5 +1,8 @@
+'use client'
+
 import CardComponent from '@/components/CardComponent'
 import AppLayout from '@/layouts/AppLayout'
+import { DiscussionEmbed } from 'disqus-react'
 
 export default function BlogDetailPage() {
     return (
@@ -140,7 +143,15 @@ export default function BlogDetailPage() {
                 </CardComponent>
 
                 <CardComponent>
-                    <div id="disqus_thread"></div>
+                    <DiscussionEmbed
+                        shortname="myfra-1"
+                        config={{
+                            url: 'http://localhost:3000/blogs/1',
+                            identifier: '1',
+                            title: 'Anime',
+                            language: 'id_ID', //e.g. for Traditional Chinese (Taiwan)
+                        }}
+                    />
                 </CardComponent>
             </div>
         </AppLayout>

@@ -12,10 +12,10 @@ export default function NavLinkComponent({
     isActive: boolean
 }) {
     return (
-        <li className="w-full lg:w-fit">
+        <li className="w-full md:w-fit">
             <a
                 href={href}
-                className={`text-sm lg:border rounded font-medium border-gray-300 py-4 lg:py-1 px-2 flex items-center gap-1.5 hover:bg-slate-50 ${
+                className={`text-sm md:border rounded font-medium border-gray-300 py-4 md:py-1 px-2 flex items-center gap-1.5 hover:bg-slate-50 ${
                     isActive ? 'bg-slate-50' : ''
                 }`}
             >
