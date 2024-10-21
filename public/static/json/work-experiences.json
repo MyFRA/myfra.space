@@ -1,0 +1,81 @@
+[
+    {
+        "company": "Lion Of Informatics",
+        "jobType": ["Onsite", "Fulltime"],
+        "location": "Kota Malang, Indonesia",
+        "role": "Web Developer",
+        "start_date": "Jun 2021",
+        "end_date": "Mar 2022",
+        "jobs": [
+            "Assist in various website creation projects, such as wedding invitation websites, government, cashier and others",
+            "Tech used: HTML, CSS, Javascript, PHP, Bootstrap, Laravel, Codeigniter and MySQL."
+        ]
+    },
+    {
+        "company": "PT. Solve 8 Solusi Indonesia",
+        "jobType": ["Remote", "Fulltime", "Project Based"],
+        "location": "Surabaya, Indonesia",
+        "role": "Backend Developer ",
+        "start_date": "Apr 2022",
+        "end_date": "Dec 2022",
+        "jobs": [
+            "Collaborating with a team of 8 people for a project",
+            "Make Restful API that consumes by Frontend Web & Mobile.",
+            "Develop backend application using Domain Driven Design & Repository Pattern.",
+            "Using redis for caching & JWT for authentication.",
+            "Integrate with Digitalocean Space & SMS Gateway.",
+            "Tech Used: PHP, Laravel, PostgreSQL and Redis."
+        ]
+    },
+    {
+        "company": "Freelancer / Self Employee",
+        "jobType": ["Remote", "Freelance"],
+        "location": "Purbalingga, Indonesia",
+        "role": "Fullstack Web & Mobile Developer",
+        "start_date": "Jan 2023",
+        "end_date": "Present",
+        "jobs": [
+            "I started focusing on doing freelance work",
+            "Technically when developing applications, I sometimes change my role as Frontend, Backend or Mobile developer according to client orders. (Flexible)",
+            "Projects that I have handled in my freelance work include School Website, Government, Attendance App, surveys, Mobile App Chat App, E-Library and others.",
+            "Tech Used: HTML, CSS, Javascript, Bootstrap, Tailwind, NodeJS, Typescript, ReactJS, Kotlin, React Native, Codeigniter, Laravel, ExpressJS, NestJS, MySQL, NextJS and PostgreSQL."
+        ]
+    },
+    {
+        "company": "SMP N 1 Rembang & SMK N 1 Karangmoncol",
+        "jobType": ["Onsite", "Part Time"],
+        "location": "Purbalingga, Indonesia",
+        "role": "Extracurricular Teacher",
+        "start_date": "Jun 2023",
+        "end_date": "Jun 2024",
+        "jobs": [
+            "Once a week I fill in computer extracurriculars for vocational and junior high schools as an extracurricular teacher"
+        ]
+    },
+    {
+        "company": "CV. JAYA MAKMUR SOLUSINDO (Berkatsoft)",
+        "jobType": ["Remote", "Freelance"],
+        "location": "Purbalingga, Indonesia",
+        "role": "Frontend Developer",
+        "start_date": "Nov 2023",
+        "end_date": "Present",
+        "jobs": [
+            "Create ECommerces Website as a Frontend Dev That Sells Herbs Products",
+            "Create a POS (Point Of Sales) App as a Frontend Dev",
+            "Create Berkatsoft Company Profile site as a Frontend Dev",
+            "Tech Used: HTML, CSS, Typescript, NextJS, Tailwind and SCSS"
+        ]
+    },
+    {
+        "company": "Akunmu",
+        "jobType": ["Remote", "Part Time"],
+        "location": "Purbalingga, Indonesia",
+        "role": "Web Developer",
+        "start_date": "Jan 2024",
+        "end_date": "Sep 2024",
+        "jobs": [
+            "Adding and developing features on the Akunmu.id website according to requests from the business side",
+            "Tech Used: HTML, CSS, Javascript, PHP, Laravel and Tailwind"
+        ]
+    }
+]

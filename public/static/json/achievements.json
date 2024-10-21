@@ -1,0 +1,18 @@
+[
+    {
+        "position": "1st Place",
+        "title": "LKS Web Technology Kabupaten Purbalingga",
+        "organizer": "Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture)",
+        "description": "Create a complete school website along with admin and front end pages. Created using the PHP framework Laravel and CSS framework Bootstrap in 7 - 8 hours.",
+        "date": "Nov 2020",
+        "certificate": "Sertifikat_Juara 1 LKS Web Technologies 2020.jpg"
+    },
+    {
+        "position": "1st Place",
+        "title": "IITC Web Design Competition",
+        "organizer": "Universitas Amikom Purwokerto ",
+        "description": "Create an UI interface on a website so that it can be used comfortably, especially in the fields of e-commerce, portfolios, companies, economics and education. This competition builds the design of a web using HTML and native CSS",
+        "date": "Okt 2020",
+        "certificate": "Sertifikat_Juara 1 IITC Intermedia Universitas Amikom Purwokerto 2020.jpg"
+    }
+]

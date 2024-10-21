@@ -84,7 +84,7 @@ export default function NavbarComponent() {
                         isActive={pathname.includes('/projects')}
                     />
                     <NavLinkComponent
-                        href="/blogs"
+                        href="https://medium.com/@myfra"
                         title="Blog"
                         icon={
                             <svg

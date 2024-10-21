@@ -5,6 +5,8 @@ import AchievementsComponent from '@/partials/pages/home/Achievements/Achievemen
 import TopAboutComponent from '@/partials/pages/home/TopAbout/TopAboutComponent'
 import WorkExperienceComponent from '@/partials/pages/home/WorkExperience/WorkExperienceComponent'
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
     return (
         <AppLayout>

@@ -11,9 +11,8 @@ export default function ContactPage() {
                 <CardComponent>
                     <BaseTitleComponent>Contact</BaseTitleComponent>
                     <BaseParagraphComponent>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Debitis nesciunt soluta beatae aperiam non dolore.
-                        Alias, at. Debitis, veniam omnis!
+                        Feel free to reach out to me through the contact form
+                        below
                     </BaseParagraphComponent>
                     <div className="flex flex-col-reverse lg:flex-row mt-5 gap-2.5 lg:gap-6">
                         <div className="flex-[4] flex gap-2.5 flex-col">
@@ -82,7 +81,10 @@ export default function ContactPage() {
                                 ></textarea>
                             </div>
                             <div className="mt-2 flex justify-end">
-                                <button className="flex items-center bg-[#232323] text-white rounded-sm px-2 py-1.5 gap-1 text-sm hover:bg-opacity-80">
+                                <button
+                                    disabled
+                                    className="flex items-center bg-[#232323] bg-opacity-40 text-white rounded-sm px-2 py-1.5 gap-1 text-sm hover:bg-opacity-40"
+                                >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="20"
@@ -196,7 +198,7 @@ export default function ContactPage() {
                                 <AccountButtonComponent
                                     classname="lg:w-full lg:justify-start"
                                     title="CV"
-                                    href=""
+                                    href="/static/data/CV_Tomy Wibowo.pdf"
                                     icon={
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"

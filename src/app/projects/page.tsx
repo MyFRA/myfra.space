@@ -4,6 +4,8 @@ import CardComponent from '@/components/CardComponent'
 import AppLayout from '@/layouts/AppLayout'
 import ProjectsComponent from '@/partials/pages/projects/page/ProjectsComponent'
 
+export const dynamic = 'force-dynamic'
+
 export default function ProjectsPage() {
     return (
         <AppLayout>
@@ -11,9 +13,8 @@ export default function ProjectsPage() {
                 <CardComponent>
                     <BaseTitleComponent>Projects</BaseTitleComponent>
                     <BaseParagraphComponent>
-                        These are some of my personal projects that I made in
-                        the past. Some of them are still in use, some are not.
-                        Mostly made them just for fun and to learn new things.
+                        These are some of my work projects that I contribute in
+                        the past.
                     </BaseParagraphComponent>
                     <div className="mt-6">
                         <ProjectsComponent />

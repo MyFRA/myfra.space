@@ -1,8 +1,13 @@
 'use client'
 
+import { AchievementType } from '@/types/AchievementType'
 import { createRef } from 'react'
 
-export default function AchievementItemComponent() {
+export default function AchievementItemComponent({
+    achievement,
+}: {
+    achievement: AchievementType
+}) {
     /**
      * Refs
      *
@@ -29,16 +34,14 @@ export default function AchievementItemComponent() {
                         <path d="M12 4v3m-4 -3v6m8 -6v6" />
                         <path d="M12 18.5l-3 1.5l.5 -3.5l-2 -2l3 -.5l1.5 -3l1.5 3l3 .5l-2 2l.5 3.5z" />
                     </svg>
-                    <span className="font-semibold">1st Place</span>
+                    <span className="font-semibold">
+                        {achievement.position}
+                    </span>
                 </div>
                 <h4 className="font-semibold font-lora mt-1">
-                    LKS Web Technology Kabupaten Purbalingga
+                    {achievement.title}
                 </h4>
-                <p className="text-sm mt-0.5">
-                    Create a complete school website along with admin and front
-                    end pages. Created using the PHP framework Laravel and CSS
-                    framework Bootstrap in 7 - 8 hours.
-                </p>
+                <p className="text-sm mt-0.5">{achievement.description}</p>
                 <button
                     type="button"
                     onClick={() => {
@@ -71,7 +74,7 @@ export default function AchievementItemComponent() {
             </div>
             <div>
                 <p className="absolute top-0 right-0 font-bold text-xs lg:text-sm">
-                    2020
+                    {achievement.date}
                 </p>
             </div>
 
@@ -105,8 +108,11 @@ export default function AchievementItemComponent() {
                     <div>
                         <img
                             className="w-full rounded-sm"
-                            src="/static/achievements/Sertifikat_Juara 1 LKS Web Technologies 2020.jpg"
-                            alt="Sertifikat_Juara 1 LKS Web Technologies 2020.jpg"
+                            src={
+                                '/static/achievements/' +
+                                achievement.certificate
+                            }
+                            alt={achievement.certificate}
                         />
                     </div>
                 </div>

@@ -15,6 +15,9 @@ export default function NavLinkComponent({
         <li className="w-full md:w-fit">
             <a
                 href={href}
+                target={
+                    href == 'https://medium.com/@myfra' ? '_blank' : '_self'
+                }
                 className={`text-sm md:border rounded font-medium border-gray-300 py-4 md:py-1 px-2 flex items-center gap-1.5 hover:bg-slate-50 ${
                     isActive ? 'bg-slate-50' : ''
                 }`}
