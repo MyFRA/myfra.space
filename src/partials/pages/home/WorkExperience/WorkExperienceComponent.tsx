@@ -29,6 +29,7 @@ export default function WorkExperienceComponent() {
      */
     const loadWorkExperiences = () => {
         axios.get('/static/json/work-experiences.json').then((res) => {
+            res.data.reverse()
             setWorkExperiences(res.data)
         })
     }
