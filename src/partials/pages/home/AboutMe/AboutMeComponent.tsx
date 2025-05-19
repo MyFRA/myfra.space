@@ -7,13 +7,11 @@ export default function AboutMeComponent() {
         <div>
             <BaseTitleComponent>About</BaseTitleComponent>
             <BaseParagraphComponent>
-                I am a software engineer with more than 4 years of experience in
-                software development. I currently focus on Web and Android
-                development, but I am also open to other technologies as long as
-                they can solve people's problems. I am able to speak Indonesian
-                and a little English, currently I am studying English Language.
-                In addition to the above, I like to read and write in my spare
-                time
+                Software Engineer with 4+ years of experience in the
+                professional industry. Can assist in making products, both
+                websites and applications individually or as a team. I am
+                currently focused on learning English to improve my
+                communication skills and becoming fluent in speaking.
             </BaseParagraphComponent>
         </div>
     )

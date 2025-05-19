@@ -7,23 +7,23 @@
         "start_date": "Jun 2021",
         "end_date": "Mar 2022",
         "jobs": [
-            "Assist in various website creation projects, such as wedding invitation websites, government, cashier and others",
+            "Assisted in the development of various website projects, including wedding invitation platforms, government websites, cashier systems, and more.",
             "Tech used: HTML, CSS, Javascript, PHP, Bootstrap, Laravel, Codeigniter and MySQL."
         ]
     },
     {
         "company": "PT. Solve 8 Solusi Indonesia",
-        "jobType": ["Remote", "Fulltime", "Project Based"],
+        "jobType": ["Remote", "Fulltime"],
         "location": "Surabaya, Indonesia",
-        "role": "Backend Developer ",
+        "role": "Backend Developer",
         "start_date": "Apr 2022",
-        "end_date": "Dec 2022",
+        "end_date": "Jan 2023",
         "jobs": [
-            "Collaborating with a team of 8 people for a project",
-            "Make Restful API that consumes by Frontend Web & Mobile.",
-            "Develop backend application using Domain Driven Design & Repository Pattern.",
-            "Using redis for caching & JWT for authentication.",
-            "Integrate with Digitalocean Space & SMS Gateway.",
+            "Collaborated with a team to deliver a full-scale soware project",
+            "Developed RESTful APIs consumed by both web and mobile frontends",
+            "Built the backend application using Domain-Driven Design (DDD) and the Repository Pattern for scalable and maintainable architecture",
+            "Implemented Redis for caching and JWT for secure user authentication",
+            "Integrated external services such as DigitalOcean Spaces for file storage and an SMS Gateway for messaging functionality",
             "Tech Used: PHP, Laravel, PostgreSQL and Redis."
         ]
     },
@@ -35,21 +35,11 @@
         "start_date": "Jan 2023",
         "end_date": "Present",
         "jobs": [
-            "I started focusing on doing freelance work",
-            "Technically when developing applications, I sometimes change my role as Frontend, Backend or Mobile developer according to client orders. (Flexible)",
-            "Projects that I have handled in my freelance work include School Website, Government, Attendance App, surveys, Mobile App Chat App, E-Library and others.",
-            "Tech Used: HTML, CSS, Javascript, Bootstrap, Tailwind, NodeJS, Typescript, ReactJS, Kotlin, React Native, Codeigniter, Laravel, ExpressJS, NestJS, MySQL, NextJS and PostgreSQL."
-        ]
-    },
-    {
-        "company": "SMP N 1 Rembang & SMK N 1 Karangmoncol",
-        "jobType": ["Onsite", "Part Time"],
-        "location": "Purbalingga, Indonesia",
-        "role": "Extracurricular Teacher",
-        "start_date": "Jun 2023",
-        "end_date": "Jun 2024",
-        "jobs": [
-            "Once a week I fill in computer extracurriculars for vocational and junior high schools as an extracurricular teacher"
+            "Began focusing on freelance development work, handling a variety of client projects",
+            "Adapted to different technical roles based on project needs, including Frontend, Backend, Mobile, and Full-Stack development",
+            "Successfully delivered diverse projects such as school websites, government platforms, attendance applications, survey systems, library apps, donations, villa residence and more",
+            "Released mobile applications to the Google Play Store on behalf of clients",
+            "Tech Used: HTML, CSS, Javascript, PHP, Bootstrap, Tailwind, NodeJS, Typescript, ReactJS, Kotlin, React Native, Codeigniter, Laravel, ExpressJS, NestJS, MySQL, NextJS and PostgreSQL."
         ]
     },
     {
@@ -58,24 +48,42 @@
         "location": "Purbalingga, Indonesia",
         "role": "Frontend Developer",
         "start_date": "Nov 2023",
-        "end_date": "Present",
+        "end_date": "Nov 2024",
         "jobs": [
-            "Create ECommerces Website as a Frontend Dev That Sells Herbs Products",
-            "Create a POS (Point Of Sales) App as a Frontend Dev",
-            "Create Berkatsoft Company Profile site as a Frontend Dev",
+            "Developed eCommerce websites as a Frontend Developer, including platforms for branded products, herbal products, and a massage service website",
+            "Built a Point of Sale (POS) application interface for efficient sales management",
+            "Created a responsive company profile website for Berkatso",
+            "Integrated and consumed RESTful APIs provided by the backend team",
             "Tech Used: HTML, CSS, Typescript, NextJS, Tailwind and SCSS"
         ]
     },
     {
         "company": "Akunmu",
-        "jobType": ["Remote", "Part Time"],
+        "jobType": ["Remote", "Freelance"],
         "location": "Purbalingga, Indonesia",
         "role": "Web Developer",
         "start_date": "Jan 2024",
         "end_date": "Sep 2024",
         "jobs": [
-            "Adding and developing features on the Akunmu.id website according to requests from the business side",
+            "Collaborated with business users to gather requirements and implement feature improvements for a premium account marketplace platform, enhancing user experience and functionality",
+            "Integrated the Xendit payment gateway to replace manual transaction processes, resulting in increased efficiency and automated payment handling.",
+            "Led modernization of a legacy codebase by applying best practices and working closely with the team to improve maintainability and scalability.",
             "Tech Used: HTML, CSS, Javascript, PHP, Laravel and Tailwind"
+        ]
+    },
+    {
+        "company": "PT. Solve 8 Solusi Indonesia",
+        "jobType": ["Remote", "Freelance"],
+        "location": "Purbalingga, Indonesia",
+        "role": "Fullstack Developer",
+        "start_date": "Nov 2024",
+        "end_date": "Present",
+        "jobs": [
+            "Collaborated with Klik Digital Sinergi on the Digiport project for Telkomsel, handling legacy code improvements, bug fixes, and module development.",
+            "Served as Web Developer maintaining legacy systems and as Full-Stack Developer migrating the settlement module to a microservices architecture.",
+            "Developed RESTful APIs integrated with MinIO for scalable object storage, and implemented frontend data fetching and state management using TanStack Query.",
+            "Utilized Jira for agile project management, sprint planning, and issue tracking to ensure effective team collaboration.",
+            "Tech Used: HTML, CSS, Javascript, Typescript, PHP, Laravel, Bootstrap, Tailwind, NextJS, TanStack, MinIO, MySQL and PostgreSql"
         ]
     }
 ]

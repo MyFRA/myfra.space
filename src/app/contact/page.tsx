@@ -31,6 +31,7 @@ export default function ContactPage() {
                                         id="firstname"
                                         className="border border-gray-300 block mt-1.5 rounded-sm py-1 px-2 outline-none text-sm w-full"
                                         placeholder="Firstname"
+                                        disabled
                                     />
                                 </div>
                                 <div className="flex-[1]">
@@ -46,6 +47,7 @@ export default function ContactPage() {
                                         id="lastname"
                                         className="border border-gray-300 block mt-1.5 rounded-sm py-1 px-2 outline-none text-sm w-full"
                                         placeholder="Lastname"
+                                        disabled
                                     />
                                 </div>
                             </div>
@@ -63,6 +65,7 @@ export default function ContactPage() {
                                     id="email"
                                     className="border border-gray-300 block mt-1.5 rounded-sm py-1 px-2 outline-none text-sm w-full"
                                     placeholder="Email"
+                                    disabled
                                 />
                             </div>
                             <div>
@@ -78,6 +81,7 @@ export default function ContactPage() {
                                     id="message"
                                     className="border border-gray-300 block mt-1.5 rounded-sm py-1 px-2 outline-none text-sm w-full h-24"
                                     placeholder="Message"
+                                    disabled
                                 ></textarea>
                             </div>
                             <div className="mt-2 flex justify-end">
