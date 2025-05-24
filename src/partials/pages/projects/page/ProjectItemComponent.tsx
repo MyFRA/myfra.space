@@ -17,7 +17,7 @@ export default function ProjectItemComponent({
 
     return (
         <div>
-            <div className="border border-gray-300 rounded-sm flex flex-col">
+            <div className="border border-gray-300 rounded-sm flex flex-col h-full">
                 <img
                     onClick={() => {
                         modalRef.current?.showModal()
