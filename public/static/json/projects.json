@@ -122,7 +122,7 @@
         "name": "SMP N 1 Karangmoncol",
         "description": "SMP N 1 Karangmoncol Library School Website",
         "tech_stacks": ["NextJS", "TailwindCSS", "Laravel"],
-        "demo_link": "https://perpustakaan.smpn1karangmoncol-pbg.sch.id/",
+        "demo_link": "https://perpustakaan-cemerlang.smpn1karangmoncol-pbg.sch.id/",
         "github_link": null
     },
     {
