@@ -28,21 +28,6 @@
         ]
     },
     {
-        "company": "Freelancer / Self Employee",
-        "jobType": ["Remote", "Freelance"],
-        "location": "Purbalingga, Indonesia",
-        "role": "Fullstack Web & Mobile Developer",
-        "start_date": "Jan 2023",
-        "end_date": "Present",
-        "jobs": [
-            "Began focusing on freelance development work, handling a variety of client projects",
-            "Adapted to different technical roles based on project needs, including Frontend, Backend, Mobile, and Full-Stack development",
-            "Successfully delivered diverse projects such as school websites, government platforms, attendance applications, survey systems, library apps, donations, villa residence and more",
-            "Released mobile applications to the Google Play Store on behalf of clients",
-            "Tech Used: HTML, CSS, Javascript, PHP, Bootstrap, Tailwind, NodeJS, Typescript, ReactJS, Kotlin, React Native, Codeigniter, Laravel, ExpressJS, NestJS, MySQL, NextJS and PostgreSQL."
-        ]
-    },
-    {
         "company": "CV. JAYA MAKMUR SOLUSINDO (Berkatsoft)",
         "jobType": ["Remote", "Freelance"],
         "location": "Purbalingga, Indonesia",
@@ -72,8 +57,23 @@
         ]
     },
     {
-        "company": "PT. Solve 8 Solusi Indonesia",
+        "company": "Freelancer / Self Employee",
         "jobType": ["Remote", "Freelance"],
+        "location": "Purbalingga, Indonesia",
+        "role": "Fullstack Web & Mobile Developer",
+        "start_date": "Jan 2023",
+        "end_date": "Present",
+        "jobs": [
+            "Focusing on freelance development work, handling a variety of client projects",
+            "Adapted to different technical roles based on project needs, including Frontend, Backend, Mobile, and Full-Stack development",
+            "Successfully delivered diverse projects such as school websites, government platforms, attendance applications, survey systems, library apps, donations, villa residence and more",
+            "Released mobile applications to the Google Play Store on behalf of clients",
+            "Tech Used: HTML, CSS, Javascript, PHP, Bootstrap, Tailwind, NodeJS, Typescript, ReactJS, Kotlin, React Native, Codeigniter, Laravel, ExpressJS, NestJS, MySQL, NextJS and PostgreSQL."
+        ]
+    },
+    {
+        "company": "PT. Solve 8 Solusi Indonesia",
+        "jobType": ["Remote", "Fulltime"],
         "location": "Purbalingga, Indonesia",
         "role": "Fullstack Developer",
         "start_date": "Nov 2024",
