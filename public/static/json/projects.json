@@ -84,7 +84,7 @@
         "thumbnail": "lentrhaka.png",
         "logo": "lentrhaka.png",
         "name": "Griya Lentrhaka",
-        "description": "Company Profile Herbs",
+        "description": "Griya Lentrhaka Company Profile",
         "tech_stacks": ["NextJS", "TailwindCSS", "Sass"],
         "demo_link": "https://lentrhaka.id/",
         "github_link": null
@@ -129,7 +129,7 @@
         "thumbnail": "nusantara-for-palestine.png",
         "logo": "nusantara-for-palestine.png",
         "name": "Yayasan Nurul Inaroh",
-        "description": "Yayasan Nurul Inaroh Donation Website",
+        "description": "Yayasan Nurul Inaroh Donation Website is a website for palestine donation",
         "tech_stacks": ["ReactJS", "TailwindCSS", "Laravel"],
         "demo_link": "https://nusantaraforpalestine.com",
         "github_link": null
@@ -138,7 +138,7 @@
         "thumbnail": "valava-residence.png",
         "logo": "valava-residence.png",
         "name": "Valava Residence",
-        "description": "Valava Residence Website",
+        "description": "Valava Residence Website that I built for my client that selling residence",
         "tech_stacks": ["NestJS", "TailwindCSS"],
         "demo_link": "https://valavaresidence.com/",
         "github_link": null
@@ -147,7 +147,7 @@
         "thumbnail": "techio.png",
         "logo": "techio.png",
         "name": "Techio",
-        "description": "Techio Website",
+        "description": "Techio Website that I built for my client that focused on Design & Architecture service",
         "tech_stacks": ["NestJS", "TailwindCSS"],
         "demo_link": "https://techio.id/",
         "github_link": null
