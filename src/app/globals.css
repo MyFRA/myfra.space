@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'katex/dist/katex.min.css';
 
 @layer components {
     .app-container {
@@ -41,4 +42,43 @@
         --b3: 92.4169% 0.00108 197.137559;
         --bc: 27.8078% 0.029596 256.847952;
     }
+}
+
+.mdx-reset :where(*) {
+    all: revert;
+}
+
+.mdx-reset blockquote {
+    margin: 0.5rem 0 1.25rem;
+    padding-left: 1.25rem;
+    border-left: 0.5rem solid #f3f4f6;
+    transition: border-left 0.1s linear;
+}
+
+.mdx-reset code {
+    background: #24292e;
+    color: #ddd;
+    padding: 0.125rem;
+    border-radius: 0.3rem;
+}
+
+.mdx-reset pre {
+    overflow-x: scroll;
+}
+
+.mdx-reset figure {
+    margin: 0;
+}
+
+.mdx-reset figure code {
+    padding: 1rem;
+}
+
+.mdx-reset a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.mdx-reset a:hover {
+    text-decoration: underline;
 }

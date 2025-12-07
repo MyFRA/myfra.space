@@ -3,6 +3,7 @@
 import CardComponent from '@/components/CardComponent'
 import AppLayout from '@/layouts/AppLayout'
 import { DiscussionEmbed } from 'disqus-react'
+import Content from '@/content/blog/hello-world-and-markdown-test/index.mdx'
 
 export default function BlogDetailPage() {
     return (
@@ -39,8 +40,10 @@ export default function BlogDetailPage() {
                             alt=""
                         />
                     </div>
-
-                    <div className="text-gray-700 text-[15px] pt-5">
+                    <div className="mdx-reset">
+                        <Content />
+                    </div>
+                    {/* <div className="text-gray-700 text-[15px] pt-5">
                         <h3 className="mb-1 font-semibold text-base lg:text-lg">
                             Lorem ipsum dolor sit amet.
                         </h3>
@@ -139,7 +142,7 @@ export default function BlogDetailPage() {
                             non praesentium quo, possimus molestiae quia ipsam
                             debitis voluptatibus est aliquam explicabo labore?
                         </p>
-                    </div>
+                    </div> */}
                 </CardComponent>
 
                 <CardComponent>
