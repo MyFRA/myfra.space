@@ -1,8 +1,9 @@
 ---
-# vi:ft=markdown
 title: 'Hello World and Markdown Test'
 date: 2022-01-22
 ---
+
+![Random image](https://picsum.photos/640/150)
 
 Hello world.
 
@@ -68,7 +69,7 @@ _Lorem ipsum dolor sit amet, consectetur adipiscing elit._ Aliquam nec dolor at 
 
 ### Image
 
-![Random image](https://picsum.photos/200/75)
+![Random image](https://picsum.photos/640/360)
 
 ### Blockquote
 
@@ -86,12 +87,6 @@ _Lorem ipsum dolor sit amet, consectetur adipiscing elit._ Aliquam nec dolor at 
 > -   Lorem ipsum dolor sit amet.
 > -   Lorem ipsum dolor sit amet.
 
-## Code
-
-Code highlighting using https://github.com/atomiks/rehype-pretty-code.
-
-### Inline
-
 #### Default
 
 Wrap text inside backtick like `` `function(num: number){ return (num & 0x1) === 0 }` `` will render `function(num: number){ return (num & 0x1) === 0 }`.
@@ -99,8 +94,6 @@ Wrap text inside backtick like `` `function(num: number){ return (num & 0x1) ===
 #### Highlighting
 
 Set language using `` `...{:lang}` `` at the end will highlight the output, something like this `function(num: number){ return (num & 0x1) === 0 }{:ts}`.
-
-### Block
 
 #### Default
 
@@ -155,78 +148,3 @@ class FizzBuzz {
   }
 }
 ```
-
-### Autolink
-
-https://wikipedia.org, Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.
-
-### Strikethrough
-
-~~Lorem ipsum dolor sit amet, consectetur adipiscing elit.~~ Aliquam nec dolor at neque tincidunt mattis. Mauris ex libero, elementum a tempor vitae, ornare ac elit. Nullam nulla tortor, iaculis sit amet sagittis in, cursus sit amet nunc.
-
-### Tasks
-
--   [x] foo
--   [x] bar
-    -   [x] nested 0
-    -   [x] nested 1
-    -   [x] nested 2
-    -   [x] nested 3
--   [ ] fizz
-    -   [x] nested 0
-    -   [ ] nested 1
-    -   [x] nested 2
--   [ ] buzz
-
-### Footnotes
-
-Here is a simple footnote[^1]. With some additional text after it.
-
-[^1]:
-    My reference.\
-    breakline and other `content`.
-
-Here is a simple footnote[^2]. With some additional text after it.
-
-[^2]: My reference.
-
-Here is a simple footnote[^key]. With some additional text after it.
-
-[^key]: My reference.
-
-### KaTeX Math
-
-Dot product $\bold{a}$ and $\bold{b}$.
-
-$$
-\bold{a}\cdot\bold{b} = \displaystyle\sum_{i=1}^n a_i b_i = a_1 b_1 + a_2 b_2 + \cdot\cdot\cdot + a_n b_n
-$$
-
-Rotate 2D vector.
-
-$$
-\begin{aligned}
-R\bold{v} & = \begin{bmatrix}
-\cos \theta & -\sin \theta \\
-\sin \theta & \cos \theta
-\end{bmatrix}
-\begin{bmatrix}
-x \\
-y
-\end{bmatrix} \\
-& = \begin{bmatrix}
-x \cos \theta - y \sin \theta \\
-x \sin \theta + y \cos \theta
-\end{bmatrix}
-\end{aligned}
-$$
-
-Derivative.
-
-$$
-\begin{aligned}
-\frac{df}{dx} & = \lim_{\Delta x \to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x} \\
-& = \lim_{h\to 0}\frac{f(x+h)-f(x)}{h} \\
-& = \lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}
-\end{aligned}
-$$

@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'katex/dist/katex.min.css';
 
 @layer components {
     .app-container {
@@ -60,6 +59,10 @@
     color: #ddd;
     padding: 0.125rem;
     border-radius: 0.3rem;
+}
+
+.mdx-reset img {
+    width: 100%;
 }
 
 .mdx-reset pre {

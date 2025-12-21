@@ -3,9 +3,21 @@
 import CardComponent from '@/components/CardComponent'
 import AppLayout from '@/layouts/AppLayout'
 import { DiscussionEmbed } from 'disqus-react'
-import Content from '@/content/blog/hello-world-and-markdown-test/index.mdx'
+import { allBlogs } from 'contentlayer/generated'
+import { DateUtil } from '@/utils/DateUtil'
+import 'highlight.js/styles/tokyo-night-dark.min.css'
 
-export default function BlogDetailPage() {
+export default function BlogDetailPage({
+    params,
+}: {
+    params: { slug: string }
+}) {
+    const blog = allBlogs.find(
+        (blog) => blog._raw.flattenedPath === params.slug
+    )
+
+    if (!blog) throw new Error(`Blog not found for slug: ${params.slug}`)
+
     return (
         <AppLayout>
             <div className="app-container">
@@ -15,33 +27,31 @@ export default function BlogDetailPage() {
                             href="/blogs"
                             className="text-xs lg:text-sm hover:underline"
                         >
-                            Kembali
+                            Back
                         </a>
                     </div>
 
                     <h1 className="text-base leading-normal lg:text-xl font-semibold text-center mt-2">
-                        Apakah Kita Memiliki Pilihan? Refleksi Awal dalam
-                        Mencari Jawaban
+                        {blog?.title}
                     </h1>
 
                     <div className="my-6">
                         <p className="text-xs lg:text-sm mb-1">
-                            Ditulis Oleh: Tomy Wibowo
+                            Written by: Tomy Wibowo
                         </p>
                         <p className="text-xs lg:text-sm">
-                            Dipublikasikan Pada: 27 Januari 2023
+                            Published at:{' '}
+                            {DateUtil.formatDateStringToDmY(blog?.date)}
                         </p>
                     </div>
 
-                    <div>
-                        <img
-                            src="https://images.unsplash.com/photo-1473830394358-91588751b241?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWxvbmV8ZW58MHx8MHx8fDA%3D"
-                            className="h-32 lg:h-56 w-full object-cover object-center"
-                            alt=""
-                        />
-                    </div>
                     <div className="mdx-reset">
-                        <Content />
+                        <div
+                            className="[&>*]:mb-3 [&>*:last-child]:mb-0"
+                            dangerouslySetInnerHTML={{
+                                __html: blog.content.html,
+                            }}
+                        />
                     </div>
                     {/* <div className="text-gray-700 text-[15px] pt-5">
                         <h3 className="mb-1 font-semibold text-base lg:text-lg">
@@ -160,3 +170,28 @@ export default function BlogDetailPage() {
         </AppLayout>
     )
 }
+
+// export const generateStaticParams = async () => allBlogs.map((post) => ({ slug: post._raw.flattenedPath }))
+
+// export const generateMetadata = ({ params }: { params: { slug: string } }) => {
+//   if (!post) throw new Error(`Post not found for slug: ${params.slug}`)
+//   return { title: post.title }
+// }
+
+// const PostLayout = ({ params }: { params: { slug: string } }) => {
+//   const post = allBlogs.find((post) => post._raw.flattenedPath === params.slug)
+//   if (!post) throw new Error(`Post not found for slug: ${params.slug}`)
+
+//   return (
+//     <article className="mx-auto max-w-xl py-8">
+//       <div className="mb-8 text-center">
+//         <time dateTime={post.date} className="mb-1 text-xs text-gray-600">
+//           {format(parseISO(post.date), 'LLLL d, yyyy')}
+//         </time>
+//         <h1 className="text-3xl font-bold">{post.title}</h1>
+//       </div>
+//     </article>
+//   )
+// }
+
+// export default PostLayout
