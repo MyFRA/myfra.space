@@ -23,5 +23,5 @@ export default makeSource({
         bodyFieldName: 'content',
         typeFieldName: '__typename',
     },
-    markdown: { rehypePlugins: [highlight] },
+    markdown: { rehypePlugins: [highlight as any] },
 })
