@@ -27,7 +27,7 @@ export default function BlogPage() {
                     <div className="mt-5">
                         <BlogContainerComponent>
                             {blogs.map((blog, idx) => (
-                                <BlogListItemComponent blog={blog} />
+                                <BlogListItemComponent blog={blog} key={idx} />
                             ))}
                         </BlogContainerComponent>
                     </div>
