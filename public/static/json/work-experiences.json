@@ -28,12 +28,27 @@
         ]
     },
     {
+        "company": "Freelancer / Self Employee",
+        "jobType": ["Remote", "Freelance"],
+        "location": "Purbalingga, Indonesia",
+        "role": "Fullstack Web & Mobile Developer",
+        "start_date": "Jan 2023",
+        "end_date": "Present",
+        "jobs": [
+            "Focusing on freelance development work, handling a variety of client projects",
+            "Adapted to different technical roles based on project needs, including Frontend, Backend, Mobile, and Full-Stack development",
+            "Successfully delivered diverse projects such as school websites, government platforms, attendance applications, survey systems, library apps, donations, villa residence and more",
+            "Released mobile applications to the Google Play Store on behalf of clients",
+            "Tech Used: HTML, CSS, Javascript, PHP, Bootstrap, Tailwind, NodeJS, Typescript, ReactJS, Kotlin, React Native, Codeigniter, Laravel, ExpressJS, NestJS, MySQL, NextJS and PostgreSQL."
+        ]
+    },
+    {
         "company": "Akunmu",
         "jobType": ["Remote", "Freelance"],
         "location": "Purbalingga, Indonesia",
         "role": "Web Developer",
         "start_date": "Jan 2024",
-        "end_date": "Sep 2024",
+        "end_date": "Present",
         "jobs": [
             "Collaborated with business users to gather requirements and implement feature improvements for a premium account marketplace platform, enhancing user experience and functionality",
             "Integrated the Xendit payment gateway to replace manual transaction processes, resulting in increased efficiency and automated payment handling.",
@@ -54,21 +69,6 @@
             "Created a responsive company profile website for Berkatsoft",
             "Integrated and consumed RESTful APIs provided by the backend team",
             "Tech Used: HTML, CSS, Typescript, NextJS, Tailwind and SCSS"
-        ]
-    },
-    {
-        "company": "Freelancer / Self Employee",
-        "jobType": ["Remote", "Freelance"],
-        "location": "Purbalingga, Indonesia",
-        "role": "Fullstack Web & Mobile Developer",
-        "start_date": "Jan 2023",
-        "end_date": "Present",
-        "jobs": [
-            "Focusing on freelance development work, handling a variety of client projects",
-            "Adapted to different technical roles based on project needs, including Frontend, Backend, Mobile, and Full-Stack development",
-            "Successfully delivered diverse projects such as school websites, government platforms, attendance applications, survey systems, library apps, donations, villa residence and more",
-            "Released mobile applications to the Google Play Store on behalf of clients",
-            "Tech Used: HTML, CSS, Javascript, PHP, Bootstrap, Tailwind, NodeJS, Typescript, ReactJS, Kotlin, React Native, Codeigniter, Laravel, ExpressJS, NestJS, MySQL, NextJS and PostgreSQL."
         ]
     },
     {
