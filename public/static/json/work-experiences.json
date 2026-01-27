@@ -85,5 +85,14 @@
             "Utilized Jira for agile project management, sprint planning, and issue tracking to ensure effective team collaboration.",
             "Tech Used: HTML, CSS, Javascript, Typescript, PHP, Laravel, Bootstrap, Tailwind, NextJS, TanStack, MinIO, MySQL and PostgreSql"
         ]
+    },
+    {
+        "company": "PT. Usaha Kreatif Indonesia",
+        "jobType": ["Fulltime"],
+        "location": "Tangerang, Indonesia",
+        "role": "Fullstack Developer",
+        "start_date": "Jan 2026",
+        "end_date": "Present",
+        "jobs": ["Project Onboarding"]
     }
 ]
