@@ -27,7 +27,7 @@ export default function ProjectsComponent() {
     const loadProjects = () => {
         axios.get('/static/json/projects.json').then((res) => {
             res.data.reverse()
-            setProjects(res.data)
+            setProjects([])
         })
     }
 
