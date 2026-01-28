@@ -3,6 +3,8 @@ title: 'How to Send Files Over a Local Network Using LocalSend'
 date: '2026-01-27'
 ---
 
+![How to Send Files Over a Local Network Using LocalSend](https://myfra.space/static/blogs/how-to-send-files-over-a-local-network-using-localsend/localsend.jpeg)
+
 When I was working, I often need to transfer files from my computer to my phone, my phone to my computer or to other devices. I usually rely on traditional way such as using a data cable or I send the file via whatsapp and then download it on the receiving device
 
 However using that method, I started to feel that this approach is not effective. I need either data cable or mobile data just to transfer file, even though all of my devices are already connected to the same local network
