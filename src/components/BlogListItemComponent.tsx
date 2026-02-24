@@ -1,9 +1,13 @@
 import { DateUtil } from '@/utils/DateUtil'
-import { Blog } from 'contentlayer/generated'
+import { Blog, WrittenScene } from 'contentlayer/generated'
 
-export default function BlogListItemComponent({ blog }: { blog: Blog }) {
+export default function BlogListItemComponent({
+    blog,
+}: {
+    blog: Blog | WrittenScene
+}) {
     return (
-        <li className="flex lg:flex-row gap-4 lg:gap-6 justify-between items-center">
+        <li className="flex lg:flex-row gap-4 lg:gap-6 justify-between items-center ">
             <a
                 href={blog.url}
                 className="flex-[3] font-medium hover:opacity-80 text-[0.9rem] lg:text-base line-clamp-1 lg:line-clamp-2"

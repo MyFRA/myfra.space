@@ -21,6 +21,7 @@ const config: Config = {
                 lexend: 'var(--lexend-font)',
                 nunito: 'var(--nunito-font)',
                 lora: 'var(--lora-font)',
+                imfellenglish: 'var(--imfellenglish-font)',
             },
         },
     },

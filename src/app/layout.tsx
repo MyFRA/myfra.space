@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Lexend, Lora, Nunito } from 'next/font/google'
+import { IM_Fell_English, Inter, Lexend, Lora, Nunito } from 'next/font/google'
 import './globals.css'
 
 const lora = Lora({ variable: '--lora-font', subsets: ['latin'] })
@@ -9,6 +9,11 @@ const lexend = Lexend({
     variable: '--lexend-font',
     subsets: ['latin'],
     weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+})
+const imfellenglish = IM_Fell_English({
+    variable: '--imfellenglish-font',
+    subsets: ['latin'],
+    weight: ['400'],
 })
 
 export const metadata: Metadata = {
@@ -24,7 +29,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${inter.variable} ${lexend.variable} ${nunito.variable} ${lora.variable}`}
+                className={`${inter.variable} ${lexend.variable} ${nunito.variable} ${lora.variable} ${imfellenglish.variable}`}
             >
                 <div className="font-inter text-[#232323]">{children}</div>
             </body>

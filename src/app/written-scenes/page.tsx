@@ -5,11 +5,11 @@ import BlogContainerComponent from '@/components/BlogContainerComponent'
 import BlogListItemComponent from '@/components/BlogListItemComponent'
 import CardComponent from '@/components/CardComponent'
 import AppLayout from '@/layouts/AppLayout'
-import { allBlogs, Blog } from 'contentlayer/generated'
+import { allWrittenScenes } from 'contentlayer/generated'
 import { compareDesc } from 'date-fns'
 
 export default function BlogPage() {
-    const blogs = allBlogs.sort((a, b) =>
+    const writtenScenes = allWrittenScenes.sort((a, b) =>
         compareDesc(new Date(a.date), new Date(b.date))
     )
 
@@ -17,16 +17,16 @@ export default function BlogPage() {
         <AppLayout>
             <div className="app-container">
                 <CardComponent>
-                    <BaseTitleComponent>Blogs</BaseTitleComponent>
+                    <BaseTitleComponent>Written Scenes</BaseTitleComponent>
                     <BaseParagraphComponent>
-                        Even though I don't write often, I try to share my
-                        thoughts and experiences from time to time. Hope you
-                        find them useful!
+                        A collection of written scenes - brief moments,
+                        observations, and quiet reflections I capture from time
+                        to time.
                     </BaseParagraphComponent>
 
                     <div className="mt-5">
                         <BlogContainerComponent>
-                            {blogs.map((blog, idx) => (
+                            {writtenScenes.map((blog, idx) => (
                                 <BlogListItemComponent blog={blog} key={idx} />
                             ))}
                         </BlogContainerComponent>
