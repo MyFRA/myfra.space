@@ -1,6 +1,6 @@
 ---
 title: 'Tawa di Tengah Tugas'
-date: 2026-03-23
+date: 2026-03-03
 ---
 
 ~ Seorang security laki-laki berumur 20an, mengenakan seragam tugas rompi hijau dan mengenakan topi yang menutupi potongan rambut cepak nya
