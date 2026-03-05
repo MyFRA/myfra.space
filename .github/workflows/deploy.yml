@@ -64,16 +64,14 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            # Login DockerHub VPS
             echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
 
-            # Pull image terbaru
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/myfra-space:latest
+            docker image pull ${{ secrets.DOCKERHUB_USERNAME }}/myfra-space:latest
 
-            docker stop myfra-space || true
-            docker rm myfra-space || true
+            docker container stop myfra-space || true
+            docker container rm myfra-space || true
 
-            docker run -d \
+            docker container run -d \
               --name myfra-space \
               --restart always \
               -p 6006:3000 \
