@@ -27,7 +27,7 @@ int main()
 
 ketika kita jalankan hasilnya akan seperti ini
 
-```
+```C
 1
 1
 ```
@@ -56,7 +56,7 @@ int main()
 
 ketika kita jalankan hasilnya akan seperti ini
 
-```
+```C
 1
 2
 ```
