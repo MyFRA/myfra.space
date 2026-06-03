@@ -92,4 +92,10 @@ int main()
 
 nah pada contoh kode program diatas, bisa dilihat di parameter ketiga pada function doSum adalah sebuah pointer yaitu int `*result`. Sebagai contoh saya mengirimkan variable total sebagai argumen untuk mengisi parameter result pada function tsb. Karena parameter \*result di function doSum adalah sebuah pointer. Maka kita akan kirimkan variable total sebagai reference seperti contoh diatas `doSum(x, y, &total);`
 
+Sehingga Jika kita jalankan program diatas dan tampilkan nilai dari variable total, maka hasilnya seperti berikut
+
+```C
+30
+```
+
 Kurang lebih seperti diatas untuk konsep dasar dan penggunaan pointer pada bahasa pemrograman C. Misal ada yang mau ditanyakan, kurang sesuai atau ada yang perlu dibenahi, mari kita diskusi di bawah pada komentar. Sekian, terima gaji
