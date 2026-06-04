@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { IM_Fell_English, Inter, Lexend, Lora, Nunito } from 'next/font/google'
 import './globals.css'
+import { usePathname } from 'next/navigation'
 
 const lora = Lora({ variable: '--lora-font', subsets: ['latin'] })
 const nunito = Nunito({ variable: '--nunito-font', subsets: ['latin'] })
@@ -19,6 +20,21 @@ const imfellenglish = IM_Fell_English({
 export const metadata: Metadata = {
     title: 'MyFRA ~ Personal Site',
     description: 'MyFRA ~ Personal Site',
+    openGraph: {
+        title: 'MyFRA ~ Personal Site',
+        description: 'MyFRA ~ Personal Site',
+        type: 'website',
+        url: 'https://myfra.space',
+        images: [
+            {
+                url: '/static/sakura.png',
+                secureUrl: '/static/sakura.png',
+                width: 1280,
+                height: 1280,
+                alt: 'MyFRA ~ Personal Site',
+            },
+        ],
+    },
 }
 
 export default function RootLayout({
