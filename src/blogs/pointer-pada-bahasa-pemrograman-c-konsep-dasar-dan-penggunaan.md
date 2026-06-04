@@ -58,9 +58,9 @@ Jika kita jalankan program diatas, maka akan menampilkan seperti berikut
 
 kita bisa lihat pada contoh diatas, ketika kita menampilkan nilai dari variable \*b, outputnya adalah `5`
 
-> _Untuk penulisan variable pointer pada C wajib menggunakan tanda \*, contoh: **\*foo**, **\*bar**_
+> _Untuk penulisan variable pointer pada bahasa pemrograman C wajib menggunakan tanda \*, contoh: **\*foo**, **\*bar**_
 
-> _Untuk penulisan variable reference pada C wajib menggunakan tanda &, contoh: **&foo**, **&bar**_
+> _Untuk penulisan variable reference pada bahasa pemrograman C wajib menggunakan tanda &, contoh: **&foo**, **&bar**_
 
 > _Untuk menampilkan variable pointer wajib mengikutsertakan tanda \*_
 
