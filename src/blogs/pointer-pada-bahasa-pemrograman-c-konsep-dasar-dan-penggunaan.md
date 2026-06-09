@@ -98,4 +98,4 @@ Sehingga Jika kita jalankan program diatas dan tampilkan nilai dari variable tot
 30
 ```
 
-Kurang lebih seperti diatas untuk konsep dasar dan penggunaan pointer pada bahasa pemrograman C. Misal ada yang mau ditanyakan, kurang sesuai atau ada yang perlu dibenahi, mari kita diskusi di bawah pada komentar. Sekian, terima gaji
+Kurang lebih seperti diatas untuk konsep dasar dan penggunaan pointer pada bahasa pemrograman C. Misal ada yang mau ditanyakan, kurang sesuai atau ada yang perlu dibenahi, mari kita diskusikan saja di bawah biar kita sama sama belajar. Sekian, terima kasih
