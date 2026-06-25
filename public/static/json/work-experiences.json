@@ -48,7 +48,7 @@
         "location": "Purbalingga, Indonesia",
         "role": "Web Developer",
         "start_date": "Jan 2024",
-        "end_date": "Present",
+        "end_date": "May 2026",
         "jobs": [
             "Collaborated with business users to gather requirements and implement feature improvements for a premium account marketplace platform, enhancing user experience and functionality",
             "Integrated the Xendit payment gateway to replace manual transaction processes, resulting in increased efficiency and automated payment handling.",
@@ -87,12 +87,31 @@
         ]
     },
     {
-        "company": "PT. Usaha Kreatif Indonesia",
-        "jobType": ["Fulltime"],
-        "location": "Tangerang, Indonesia",
-        "role": "Fullstack Developer",
+        "company": "CV. Eureka Media Aksara",
+        "jobType": ["Part Time", "Remote"],
+        "location": "Purwokerto, Indonesia",
+        "role": "IT Support",
         "start_date": "Jan 2026",
         "end_date": "Present",
-        "jobs": ["Project Onboarding"]
+        "jobs": [
+            "Maintain existing website publisher books",
+            "Publish website to indexed by google scholar",
+            "Supporting IT technical area for company"
+        ]
+    },
+    {
+        "company": "PT. Usaha Kreatif Indonesia",
+        "jobType": [],
+        "location": "Tangerang, Indonesia",
+        "role": "Full Stack Web & Mobile Developer",
+        "start_date": "Jan 2026",
+        "end_date": "Present",
+        "jobs": [
+            "Create landing page for Trading Competition website campaign, that integrate with existing system",
+            "Setup, installation & use bare metal local server using Proxmox for being used by another dev to deployment on-premise",
+            "Setup, installation & use Grafana on proxmox bare metal server for monitoring",
+            "Develop Mobile App & Backend Mobile App HRIS integrate with gmaps, for being used by company employee",
+            "Tech Used: Javascript, Typescript, Python, TailwindCss, NextJS, TanStack, React Native, NestJS and PostgreSql"
+        ]
     }
 ]
